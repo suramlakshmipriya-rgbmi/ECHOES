@@ -502,10 +502,10 @@ sound_education = {
 
 @st.cache_resource
 def load_models():
-
+    
     model_path = os.path.join(
-    os.path.dirname(__file__),
-    "best_yamnet_classifier.keras"
+        os.path.dirname(__file__),
+        "best_yamnet_classifier.keras"
 )
 
     classifier = tf.keras.models.load_model(model_path)
