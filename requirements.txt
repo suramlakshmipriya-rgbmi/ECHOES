@@ -1,7 +1,7 @@
-
 streamlit
 tensorflow==2.20.0
-tensorflow-hub
+tensorflow-hub==0.16.1
+setuptools<82
 librosa
 matplotlib
 numpy
